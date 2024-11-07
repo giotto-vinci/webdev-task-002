@@ -1,5 +1,6 @@
 {
     "workbench.editor.autoLockGroups": {
         "mainThreadWebview-simpleBrowser.view": false
-    }
+    },
+    "liveServer.settings.port": 5501
 }

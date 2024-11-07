@@ -1,0 +1,42 @@
+@import url("css\reset.css");
+
+
+body {
+    padding: 1rem;
+}
+
+
+header,
+article,
+ aside,
+ footer {
+    border: 2px solid red;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 80%;
+    border-radius: .25rem;
+
+}
+
+.column {
+    border: 2px dotted orange;
+    background-color: aqua;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Tablet */
+
+@media screen and
+(min-width: 400px) {
+
+.column {
+    border: 2px dashed green;
+    background-color: blueviolet;
+}
+}
